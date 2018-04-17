@@ -1,0 +1,178 @@
+
+body {
+	background-color: #e1e3e4;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	margin: 0;
+	padding: 0;
+	/* background-image: ; */
+	background-size: cover;
+}
+
+a {
+	text-decoration: inherit;
+}
+
+a:hover {
+	border-bottom: 1px maroon solid;
+}
+
+
+h1 {
+	margin: 15px 0 0px 50px;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 1.5em;
+	text-align: center;
+	padding:5px;
+}
+
+h2 {
+	font-size: 1.3em;
+	margin: 0 0 0 40px;
+	font-weight: normal;
+	text-align: center;
+	padding:5px;
+}
+
+p {
+	text-align: center;
+}
+
+table td {
+	min-width: 220px;
+}
+
+header {
+	width: 100%;
+}
+
+nav {
+	margin-right: 5%;
+	text-align: right;
+}
+
+#current_page{
+color: #343d46;
+}
+
+ul{
+	 list-style: none;
+	 display: inline-block;
+}
+
+nav ul {
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+nav a {
+	font-family: 'Open Sans', sans-serif;
+	color: grey;
+	font-weight: 800;
+	margin: 15px 30px 0 30px;
+	font-size: 2em;
+}
+
+nav a.selected, nav a:hover {
+	border-bottom: 4px #860D0D solid;
+	color: #860D0D;
+}
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+}
+
+form {
+	padding-left: 0;
+	text-align: center;
+}
+
+
+input {
+	font-size: 1em;
+	width: 300px;
+	border-style: solid;
+	border: 1px solid black;
+}
+
+form input:focus {
+	color: #fff;
+	background-color: #961919;
+}
+
+form input[type="submit"] {
+	width: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #961919;
+	color: #ddd;
+}
+
+form input[type="checkbox"] {
+	color: #ddd;
+	float: left;
+	margin: 5px 15px 0 0;
+	padding: 0;
+	width: 15px;
+	height: 15px;
+	color: #ddd;
+}
+
+img{
+	width:  200px;
+	height: 200px;
+}
+
+figure{
+display: inline-block;
+}
+
+#websitetTitle{
+color: black;
+}
+
+#title{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-weight: 800;
+	margin: 15px 30px 0 30px;
+	font-size: 2.1em;
+}
+
+#homeP{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-style: italic;
+	margin: 0px 30px 0 30px;
+}
+
+.bio{
+text-align: center;
+display: block;
+}
+
+#uploadPage{
+transform: translate(0,20%);
+}
+
+.searchTags{
+	color: black;
+	font-size: 250%;
+	margin: 10% 5% 2% 5%;
+	border: 7px solid black;
+	background-color: ghostwhite;
+	float: left;
+}
+
+.searchTags :hover {
+color: red;
+border: 10px solid red;
+}
